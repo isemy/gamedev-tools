@@ -19,12 +19,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN" className={`${geistSans.variable} h-full antialiased`}>
+    <html lang="zh-CN" className={`${geistSans.variable} h-full antialiased`} suppressHydrationWarning>
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <div className="fixed inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,var(--primary)/0.03,transparent_50%)]" />
         <Header />
         <main className="flex-1">{children}</main>
-        <footer className="border-t py-6 text-center text-sm text-muted-foreground">
-          <p>GameDev Tools · 为独立游戏开发者而生</p>
+        <footer className="border-t py-8 text-center text-sm text-muted-foreground">
+          <p className="font-medium">GameDev Tools · 为独立游戏开发者而生</p>
         </footer>
       </body>
     </html>
