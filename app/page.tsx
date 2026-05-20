@@ -11,6 +11,7 @@ import {
   Type,
   Sparkles,
   Globe,
+  Scissors,
 } from "lucide-react";
 
 const tools = [
@@ -94,6 +95,15 @@ const tools = [
     tag: "本地化",
     color: "text-teal-500",
     bg: "bg-teal-500/10",
+  },
+  {
+    href: "/tools/sprite-bg",
+    icon: Scissors,
+    title: "Sprite 去背景",
+    description: "去除 AI 生成图片背景，导出 Unity 可用的透明 PNG/WebP Sprite，支持颜色采样和 AI 自动抠图。",
+    tag: "图像",
+    color: "text-pink-400",
+    bg: "bg-pink-400/10",
   },
 ];
 

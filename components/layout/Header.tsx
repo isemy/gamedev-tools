@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { href: "/tools/font", label: "字体" },
   { href: "/tools/particles", label: "粒子" },
   { href: "/tools/i18n", label: "本地化" },
+  { href: "/tools/sprite-bg", label: "去背景" },
 ];
 
 export default function Header() {
