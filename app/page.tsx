@@ -12,6 +12,9 @@ import {
   Sparkles,
   Globe,
   Scissors,
+  Grid2x2,
+  Images,
+  Layers,
 } from "lucide-react";
 
 const tools = [
@@ -104,6 +107,33 @@ const tools = [
     tag: "图像",
     color: "text-pink-400",
     bg: "bg-pink-400/10",
+  },
+  {
+    href: "/tools/sprite-sheet",
+    icon: Grid2x2,
+    title: "Sprite Sheet 分割",
+    description: "上传 Sprite Sheet 大图，按行列切割成单帧预览，导出单帧 ZIP 或重新排列的新 Sheet。",
+    tag: "图像",
+    color: "text-indigo-500",
+    bg: "bg-indigo-500/10",
+  },
+  {
+    href: "/tools/tile-preview",
+    icon: Layers,
+    title: "Tile 拼接预览器",
+    description: "上传 Tile 素材，在网格画布上拖拽拼接，验证边缘是否无缝，导出拼接地图 PNG。",
+    tag: "图像",
+    color: "text-lime-600",
+    bg: "bg-lime-600/10",
+  },
+  {
+    href: "/tools/image-batch",
+    icon: Images,
+    title: "图片批量处理",
+    description: "批量缩放 AI 生成素材到统一尺寸（64×64、128×128 等），转换 PNG/WebP，打包 ZIP 下载。",
+    tag: "图像",
+    color: "text-sky-500",
+    bg: "bg-sky-500/10",
   },
 ];
 

@@ -15,6 +15,9 @@ const NAV_LINKS = [
   { href: "/tools/particles", label: "粒子" },
   { href: "/tools/i18n", label: "本地化" },
   { href: "/tools/sprite-bg", label: "去背景" },
+  { href: "/tools/sprite-sheet", label: "Sheet分割" },
+  { href: "/tools/tile-preview", label: "Tile预览" },
+  { href: "/tools/image-batch", label: "批量处理" },
 ];
 
 export default function Header() {
